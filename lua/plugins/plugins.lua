@@ -120,5 +120,12 @@ return {
     
     {
         'nvim-tree/nvim-web-devicons'
+    },
+
+    --Feline Bar
+    
+    {
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
     }
 }
